@@ -2,8 +2,7 @@
 faceAndLandmarkModels/
 
 #Datasets
-data/KDEF_and_AKDEF/
-data/fer2013.csv
+data/
 
 # Large trained models
 models/*.pkl
