@@ -5,6 +5,9 @@ faceAndLandmarkModels/
 data/KDEF_and_AKDEF/
 data/fer2013.csv
 
+# Large trained models
+models/*.pkl
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
