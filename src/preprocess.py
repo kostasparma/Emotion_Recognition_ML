@@ -3,7 +3,8 @@ import numpy as np
 
 # OpenCV face detector
 face_detector = cv2.CascadeClassifier(
-    "faceAndLandmarkModels/haarcascade_frontalface_default.xml"
+    # "faceAndLandmarkModels/haarcascade_frontalface_default.xml"
+    cv2.data.haarcascades + "haarcascade_frontalface_default.xml"
 )
 
 def preprocess_kdef_image(
