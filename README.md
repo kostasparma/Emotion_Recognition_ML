@@ -15,3 +15,12 @@ As mentioned before, the following data set must be put in the repo manually (no
 - [KDEF-DataSet-Source](https://www.kdef.se/)
 - [FER2013](https://www.kaggle.com/datasets/deadskull7/fer2013)
 - [Face-Landmark](https://github.com/davisking/dlib-models/blob/master/shape_predictor_68_face_landmarks.dat.bz2)
+
+
+## Trouble-shooting
+
+Use the following command to install openCV that is not 5.0, because there the CascadeClassifier is dropped: 
+
+```bash
+    %pip install "opencv-python<5"
+```
