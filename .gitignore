@@ -7,6 +7,7 @@ data/
 
 # Large trained models
 models/*.pkl
+*.joblib
 
 
 # Byte-compiled / optimized / DLL files
